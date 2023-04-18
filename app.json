@@ -1,8 +1,8 @@
 {
   "expo": {
     "name": "DJR Group",
-    "slug": "djrgroup",
-    "version": "1.0.3",
+    "slug": "djrgrou",
+    "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
@@ -15,24 +15,24 @@
       "backgroundColor": "#283673"
     },
     "updates": {
-      "fallbackToCacheTimeout": 0
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/c7648da8-dade-4b98-9074-b31b5bf5a257"
     },
     "assetBundlePatterns": [
       "**/*"
     ],
     "android": {
-      "versionCode": 3,
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
-        "backgroundColor": "#283673",
-        "backgroundImage": "./assets/icon.png"
+        "backgroundColor": "#283673"
       },
-      "package": "com.sporti.djrgroup",
+      "package": "com.sporti.djrgrou",
       "permissions": []
     },
     "ios": {
-      "buildNumber": "3",
-      "bundleIdentifier": "com.sporti.djrgroup",
+      "buildNumber": "1.0",
+      "bundleIdentifier": "com.sporti.djrgrou",
       "supportsTablet": true,
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to collect the user's profile photo, which can be fictitious.",
@@ -40,6 +40,14 @@
       }
     },
     "entryPoint": "node_modules/expo/AppEntry.js",
-    "description": ""
+    "description": "",
+    "extra": {
+      "eas": {
+        "projectId": "c7648da8-dade-4b98-9074-b31b5bf5a257"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
   }
 }
